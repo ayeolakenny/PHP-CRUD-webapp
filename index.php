@@ -3,7 +3,7 @@
   include('config/db_connect.php');
 
   // query to get all pizzas
-  $sql = 'SELECT title, ingredients, id FROM pizzas ORDER BY created_at';
+  $sql = 'SELECT title, ingredients, id FROM pizzas ORDER BY id';
 
   // make query
   $result = mysqli_query($conn, $sql);

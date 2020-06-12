@@ -2,7 +2,7 @@
 
 
   // connect to database
-  $conn = mysqli_connect('localhost', 'ayeolakenny', 'a.2969529697', 'ninja_pizza');
+  $conn = mysqli_connect('localhost', '', '', '');
 
   if(!$conn){
     echo "Connection error: " . mysqli_connect_error();
